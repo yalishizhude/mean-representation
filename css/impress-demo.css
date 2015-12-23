@@ -36,7 +36,7 @@ small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
+caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
@@ -49,6 +49,7 @@ time, mark, audio, video {
     vertical-align: baseline;
 }
 
+
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -58,7 +59,7 @@ body {
     line-height: 1;
 }
 ol, ul {
-    list-style: none;
+    /*list-style: none;*/
 }
 blockquote, q {
     quotes: none;
@@ -72,6 +73,10 @@ q:before, q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+    border: 1px solid #000;
+}
+td,tr{
+    border: 1px solid #000;
 }
 
 /*
